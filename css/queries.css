@@ -1,0 +1,61 @@
+/*big table to 1200px (widths smaller than 1140px row)*/
+@media only screen and (max-width:1200px){
+	.hero-text-box{
+		width:100%;
+		padding:0 2%;
+	}
+	
+	.row{
+		padding:0 2%;
+	}
+}
+
+
+/*small tablets to big tablet - from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+	body{
+		font-size:18px;
+	}
+	
+	.logo{
+		height:80px;
+	}
+	
+	section{padding:60px 0;}
+	
+	.long-copy{
+	width:80%;
+	/*total width is 100%, if we want it centerd the remaining 30% should be distruibed
+	between right and left*/
+	margin-left:10%;
+}
+}
+
+/*small phones to small tablets - from 481 to 767px*/
+@media only screen and (max-width:767px){
+	body{
+		font-size:16px;
+	}
+	
+	section{padding:30px 0;}
+	
+	.row,
+	.hero-text-box{
+		padding:0 4%;
+	}
+	
+	.col{width:100%;}
+	
+	.main-nav{
+		display:none;
+	}
+}
+
+/*small phone - from 0 to 480px*/
+@media only screen and (max-width:480px){
+	.main-nav{
+		display:none;
+	}
+	
+	body{font-size:14px;}
+}
